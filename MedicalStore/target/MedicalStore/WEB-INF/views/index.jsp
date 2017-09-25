@@ -21,10 +21,10 @@
 <meta charset="utf-8">
 <title>Insert title here</title>
 </head>
-<jsp:include page="Upper.jsp"></jsp:include>
+<jsp:include page="header.jsp"></jsp:include>
 <body>
 <div class= "container">
-<h2><i>TEDDY STORE</i></h2> 
+<h2><i>MedicalStore</i></h2> 
 <div id="Slide Images" class="carousel slide" data-ride="carousel">
 <ol class="carousel-indicators">
 <li data-target="#Slide Images" data-slide-to="0" class="active"></li>
@@ -35,21 +35,19 @@
 <div class="carousel-inner">
 <div class="item active">
 <img class="img-rounded" class="img-responsive center-block" 
-src="resources/teddy1.jpg" style="width:100%">
+src="resources/med1.jpg" style="width:100%">
 </div>
 
 <div class="item">
 <img class="img-rounded" class="img-responsive center-block" 
-src="resources/teddy2.jpg" style="width:100%">
+src="resources/med2.jpg" style="width:100%">
 </div>
 
 <div class="item">
 <img class="img-rounded" class="img-responsive center-block" 
-src="resources/teddy3.jpg" style="width:100%">
+src="resources/med3.jpg" style="width:100%">
 </div>
 </div>
-
-
 
 <a class="left carousel-control" href="#Slide Images" data-slide="prev">
 <span class="glyphicon glyphicon-chevron-left"></span> 
@@ -62,5 +60,4 @@ src="resources/teddy3.jpg" style="width:100%">
 </a>
 </div>
 </div>
-<jsp:include page="Footer.jsp"></jsp:include>
 </body></html>
